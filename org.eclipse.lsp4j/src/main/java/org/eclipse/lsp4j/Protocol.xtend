@@ -1545,7 +1545,7 @@ class Diagnostic {
 	/**
 	 * The diagnostic's code. Can be omitted.
 	 */
-	String code
+	Either<String, Number> code
 
 	/**
 	 * A human-readable string describing the source of this diagnostic, e.g. 'typescript' or 'super lint'.
